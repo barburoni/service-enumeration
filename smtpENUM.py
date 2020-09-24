@@ -6,7 +6,7 @@ import time
 
 if len(sys.argv) != 3:
 
-	print "Usage: smtp.py <usernames_list.txt> <host>"
+	print "Usage: smtpENUM.py <usernames_list.txt> <host>"
 	sys.exit(0)
 
 print "\033[1;32;40m" """
