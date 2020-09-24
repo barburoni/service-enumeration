@@ -16,7 +16,6 @@ connect = s.connect((sys.argv[2], 25))
 
 banner = s.recv(1024)
 
-
 with open(sys.argv[1], "r") as a_file:
         for username in a_file:
 		
